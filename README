@@ -1,6 +1,13 @@
-Hello World!
+Welcome to my first GitHub thing, a jQuery plugin, wooh!
 
-$(function() {
-	$('.stuff').scrollToStop(50);
-});
+--------------------------------------------------------
+
+I'm still figuring this out, so please bear with me…
+
+--------------------------------------------------------
+
+USAGE
+$('.example').scrollToStop(50);
+
+
 
