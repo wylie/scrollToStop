@@ -1,13 +1,17 @@
-Welcome to my first GitHub thing, a jQuery plugin, wooh!
+Welcome to my first GitHub repository, it's a jQuery plugin, wooh-hoo!
+(I'm still figuring this out, so please bear with me…)
 
 --------------------------------------------------------
 
-I'm still figuring this out, so please bear with me…
+EXPLANATION
+This is a simple plugin. It looks for an element on the page, sets the positioning to absolute and let's it scroll with the page. When it gets to a certain point, a point you determine and pass into the plugin, the element becomes fixed on the page. 
 
---------------------------------------------------------
+When you scroll back down the page the element will gracefully retake it's original place on the page when you scroll past that spot.
+
 
 USAGE
 $('.example').scrollToStop(50);
 
-
-
+-.example is the element you want to stay on the page.
+-50 is the height at which you want it to stop.
+	-If no height is entered the element will default to 0
