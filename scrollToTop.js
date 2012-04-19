@@ -2,7 +2,7 @@
 /* 4/17/2012 Wylie Fisher - dukeofcheese.com */
 /* ***************************************** */
 (function( $ ){
-    jQuery.fn.scrollToStop = function(options){
+    jQuery.fn.scrollToTop = function(options){
         if ( options == undefined ) {
 			var options = 0;
         };
