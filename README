@@ -1,0 +1,6 @@
+Hello World!
+
+$(function() {
+	$('.stuff').scrollToStop(50);
+});
+

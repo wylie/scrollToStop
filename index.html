@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dukeofcheese - Plugins</title>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+	
+	<link rel="stylesheet" href="/css/master.css" />
+	<link rel="stylesheet" href="/css/plugins.css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			if( $('.plugin').length > 1 ) {
+				$('header p').text('Tasty plugins for jQuery.');
+			};
+		});
+	</script>
+	
+</head>
+<body>
+
+<div id="wrap">
+	<header>
+		<h1>jQuery Plugins</h1>
+		<p>A tasty plugin for jQuery.</p>
+	</header>
+	<div class="column">
+		<ul class="plugin-list">
+			<li class="plugin">
+				<a href="scrollToStop/" class="plugin-link">
+					<span class="plugin-name">ScrollToStop</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
