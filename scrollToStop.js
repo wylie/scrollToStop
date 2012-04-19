@@ -1,6 +1,7 @@
-/* ***************************************** */
-/* 4/17/2012 Wylie Fisher - dukeofcheese.com */
-/* ***************************************** */
+/* ******************************************* */
+/* scrollToStop - v0.1                         */
+/* 4/18/2012 - Wylie Fisher - dukeofcheese.com */
+/* ******************************************* */
 (function( $ ){
     jQuery.fn.scrollToStop = function(options){
         if ( options == undefined ) {
