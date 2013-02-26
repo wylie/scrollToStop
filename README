@@ -7,5 +7,5 @@ Usage:
 $('.example').scrollToStop(50);
 
 -.example is the element you want to stay on the page.
--50 is the height at which you want it to stop.
-	-If no height is entered the element will default to 0
+-50 is the pixel height at which you want it to stop from the top of the browser viewport.
+-If no height is entered the element will default to 0 pixels
