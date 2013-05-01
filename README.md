@@ -1,4 +1,6 @@
-This is a simple plugin. It looks for an element on the page, sets the positioning to absolute and let's it scroll with the page. When it gets to a certain point, a point you determine and pass into the plugin, the element becomes fixed on the page. 
+This is a jQuery plugin!
+
+It looks for an element on the page, sets the positioning to absolute and let's it scroll with the page. When it gets to a certain point, a point you determine and pass into the plugin, the element becomes fixed on the page. 
 
 When you scroll back down the page the element will gracefully retake it's original place on the page when you scroll past that spot.
 
